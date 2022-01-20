@@ -16,6 +16,8 @@ result = 0
 while True:
     #N이 K로 나누어 떨어지는 수가 될 때까지 감안
     target = N // K * K #★이런 부분) N이 K로 나누어 떨어지지 않을 경우, 나누어 떨어지는 가장 가까운 수를 구하는 과정
+    #그만큼 1을 뺌
+    #최초값을 입력받은 경우에 해당
     result = result + N - target
     N = target
 
